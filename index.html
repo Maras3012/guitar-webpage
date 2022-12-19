@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guitar shop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo"><i class="fas fa-guitar" style="color: white;"></i></a>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#shop" class="navbar__links" id="shop-page"
+              >Shop</a>
+          </li>
+        </ul> 
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <div class="home" id="home">
+      <div class="home__container">
+        <h1 class="home__heading">Everything for <span>guitars</span></h1>
+        <p class="home__description">Something for everyone</p>
+        <button class="main__btn"><a href="#shop">Shop</a></button>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"></div>
+        </div>
+        <div class="main__content">
+          <h2>We sell all types of guitars</h2>
+          <p>Visit our online shop and find your guitar</p>
+          <button class="main__btn"><a href="#shop">Shop</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shop -->
+    <div class="shop" id="shop">
+      <h1>Our Shop</h1>
+      <div class="shop__wrapper">
+        <div class="shop__card">
+          <img src="classical.png" alt="Acoustic guitar" width="100%" height="100%">
+        </div>
+        <div class="shop__card">
+          <img src="acoustic.png" alt="Acoustic guitar" width="100%" height="100%">
+        </div>
+        <div class="shop__card">
+          <img src="electrical.png" alt="Acoustic guitar" width="100%" height="100%">
+        </div>
+        <div class="shop__card">
+          <img src="bass.png" alt="Acoustic guitar" width="100%" height="100%">
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/">How it works</a><a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">GUITARS</a>
+          </div>
+          <p class="website__rights">© GUITARS 2022. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
